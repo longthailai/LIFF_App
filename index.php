@@ -3,7 +3,8 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>LIFF Starter</title>
-        <link rel="stylesheet" href="./public/css/style.css">
+        <link rel="stylesheet" href="./public/css/style.css" />
+        <script charset="utf-8" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
         <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
         <script src="./public/js/liff-starter.js"></script>
     </head>
