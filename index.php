@@ -106,6 +106,12 @@
                         <td id="isLoggedIn" class="textLeft"></td>
                     </tr>
                 </table>
+                <di>
+
+<?php
+var_dump($_REQUEST);
+?>
+                </di>
             </div>
             <!-- LOGIN LOGOUT BUTTONS -->
             <div class="buttonGroup">
