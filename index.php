@@ -106,11 +106,13 @@
                         <td id="isLoggedIn" class="textLeft"></td>
                     </tr>
                 </table>
-                <di>
-
+                <di id="myIframe">
 <?php
-var_dump($_REQUEST);
+$myurl = (!empty($_REQUEST['url'])) ? trim($_REQUEST['url']) : false;
+if ($myurl):
 ?>
+                    <iframe width="100%" height="100%" src="<?php echo($myurl);?>" frameborder="0" allowfullscreen></iframe>
+<?php endif;?>
                 </di>
             </div>
             <!-- LOGIN LOGOUT BUTTONS -->
