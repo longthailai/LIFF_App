@@ -15,7 +15,7 @@
     </div>
     <div id="demo_content">
         <form method="post" name="frmPost" action="./index.php">
-        <h3>Send Message to other page.</h3><br/>
+        <h3>Message from IBM...</h3><br/>
         <div>
             <textarea id="txtContent" name="txtContent" placeholder="Input your message here" cols="100" rows="10">
     GL_CUSTOM:{
